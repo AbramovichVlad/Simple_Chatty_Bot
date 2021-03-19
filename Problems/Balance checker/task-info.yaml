@@ -1,0 +1,29 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fun main() {
+        // write your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4720#comment
+status: Failed
+feedback:
+  message: "Failed test #1 of 8. Runtime error\n\nThis is a sample test from the problem\
+    \ statement!\n\nTest input:\n10000\n5000 3000\nCorrect output:\nThank you for\
+    \ choosing us to manage your account! You have 2000 money.\n\nYour code output:\n\
+    \n\nError:\nException in thread \"main\" java.lang.NumberFormatException: For\
+    \ input string: \"java.util.Scanner[delimiters=\\p{javaWhitespace}+][position=0][match\
+    \ valid=false][need input=false][source closed=false][skipped=false][group separator=\\\
+    x{2c}][decimal separator=\\x{2e}][positive prefix=][negative prefix=\\Q-\\E][positive\
+    \ suffix=][negative suffix=][NaN string=\\QNaN\\E][infinity string=\\Q∞\\E]\"\n\
+    \tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)\n\
+    \tat java.base/java.lang.Integer.parseInt(Integer.java:652)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:770)\n\
+    \tat MainKt.main(main.kt:8)\n\tat MainKt.main(main.kt)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native\
+    \ Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\
+    \tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\
+    \tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.jetbrains.kotlin.runner.AbstractRunner.run(runners.kt:64)\n\
+    \tat org.jetbrains.kotlin.runner.Main.run(Main.kt:149)\n\tat org.jetbrains.kotlin.runner.Main.main(Main.kt:159)\n"
+  time: Fri, 19 Mar 2021 07:47:33 UTC
+record: -1
